@@ -12,7 +12,7 @@
 body {
   max-width: 1440px;
   min-width: 320px;
-  margin: 0 auto;
+  margin: 0 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -142,6 +142,7 @@ h1 {
   font-size: 18px;
   font-weight: 700;
   color: white;
+  cursor: pointer
 }
 
 .search-filter {
@@ -391,8 +392,8 @@ a {
   font-size: 22px;
 }
 
-.activityCard>h3 {
-  padding-left: 19px;
+.card-title {
+  margin: 16px 19px 16px 19px;
 }
 
 /************ Footer ***********/
